@@ -1,0 +1,16 @@
+ .card {
+ 	background: linear-gradient(217deg, #ce2e6c2e, #ce2e6c2e);
+ 	padding: 40px 20px;
+ 	margin: 20px 0px;
+ 	border-radius: 20px;
+ 	box-shadow: Opx 10px 30px rgba(O,O,O,0.9)
+ 	background-position: bottom;
+    align-items: center;
+    justify-content: center
+ }
+
+ .first {
+ 	display:flex;
+ 	align-items: center;
+ 	justify-content:space-around;
+ }

@@ -1,0 +1,109 @@
+/*import des fichiers de composants*/
+@import url("components/card.css");
+
+/*regles de style général*/
+
+body {
+	color: #4baea0; 
+	text-align: center;
+	font-family: 'Open Sans Condensed', sans-serif;
+	background-image: url(../image/flo.jpeg);
+}
+
+h1 {
+	font-size: 42px;
+	font-family: 'Montserrat Subrayada', sans-serif;
+	color: #f2a6a6;
+	padding:16px;
+	font-weight:lighter;
+	-moz-box-shadow: 2px 2px 6px #888;  
+	-webkit-box-shadow: 2px 2px 6px #888;  
+	box-shadow:2px 2px 6px #888;  
+	text-align:center;
+	display:block;
+	margin:16px;
+}
+
+h2 {
+	color: #f2a6a6;
+	font-size: 24px;
+}
+
+h1 {
+	text-align: center;
+}
+
+p {
+	font-size: 16px;
+}
+
+i {
+	font-size: 40px;
+}
+
+img {
+  border-radius: 10%;
+  padding: 10px;
+  width: 200px; 
+  border-color:#ce2e6c;
+}
+
+ ul{
+	list-style-type: none;
+ 	padding-left:0;
+ }
+
+ .container {
+ 	width: 600px;
+ 	margin: 20px auto;
+ }
+
+ #button { 
+    white-space: nowrap;
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 14px;
+    -webkit-box-shadow: 0 4px 6px rgba(50,50,93,.11), 0 1px 3px rgba(0,0,0,.08);
+    box-shadow: 0 4px 6px rgba(50,50,93,.11), 0 1px 3px rgba(0,0,0,.08);
+    background: linear-gradient(217deg, #f2a6a6, #f2a6a6);
+    border-radius: 4px;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: .025em;
+    color: #b6e6bd;
+    text-decoration: none;
+    -webkit-transition: all .15s ease;
+    transition: all .15s ease;
+    padding:16px;
+  	font-weight:lighter;
+  	box-shadow:2px 2px 6px #888;
+}
+
+ a:hover {
+	color:#ce2e6c;
+	text-decoration:none;
+ }
+
+.inline {
+	display: inline;
+}
+
+ @media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+ 	}
+ }
